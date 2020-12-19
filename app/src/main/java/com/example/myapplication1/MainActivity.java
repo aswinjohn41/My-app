@@ -36,10 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 stringEmail = etEmail.getText().toString();
                 stringPassword = etPassword.getText().toString();
                 if (stringEmail.equals("123@gmail.com") && stringPassword.equals("admin")) {
-                    Toast.makeText(MainActivity.this, "LOgin sucess", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login sucess", Toast.LENGTH_SHORT).show();
                 } else {
 
-                    Toast.makeText(MainActivity.this, "logiun failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "login failed", Toast.LENGTH_SHORT).show();
                 }
             }
         });
